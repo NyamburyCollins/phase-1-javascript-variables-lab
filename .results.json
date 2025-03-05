@@ -1,0 +1,113 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-05T09:49:05.078Z",
+    "end": "2025-03-05T09:49:05.955Z",
+    "duration": 877
+  },
+  "tests": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Chelsea'",
+        "showDiff": true,
+        "expected": "Chelsea",
+        "stack": "AssertionError: expected undefined to equal 'Chelsea'\n    at Context.<anonymous> (test/indexTest.js:21:19)\n    at process.processImmediate (node:internal/timers:491:21)"
+      }
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan SmmostProfitableNeighborhoodith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan SmmostProfitableNeighborhoodith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "is declared as equal to Chelsea",
+      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 'Chelsea'",
+        "showDiff": true,
+        "expected": "Chelsea",
+        "stack": "AssertionError: expected undefined to equal 'Chelsea'\n    at Context.<anonymous> (test/indexTest.js:21:19)\n    at process.processImmediate (node:internal/timers:491:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is set as Scuber",
+      "fullTitle": "index.js companyName is set as Scuber",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined as a const",
+      "fullTitle": "index.js companyName is defined as a const",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is declared as equal to Susan SmmostProfitableNeighborhoodith",
+      "fullTitle": "index.js companyCeo is declared as equal to Susan SmmostProfitableNeighborhoodith",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "is defined using let",
+      "fullTitle": "index.js companyCeo is defined using let",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
